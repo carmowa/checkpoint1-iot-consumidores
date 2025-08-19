@@ -83,3 +83,7 @@ python -m venv venv
 venv\Scripts\activate   
 4) Instale as dependências: pip install -r requirements.txt
 5) Execute o notebook: jupyter notebook notebook.ipynb
+
+👥 Autores
+RM556092 - Ricardo Tavares de Oliveira Filho
+RM555726 - Victor Alves Carmona
