@@ -88,4 +88,5 @@ venv\Scripts\activate
 👥 Autores
 
 RM556092 - Ricardo Tavares de Oliveira Filho
+
 RM555726 - Victor Alves Carmona
