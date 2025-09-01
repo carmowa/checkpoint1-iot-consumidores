@@ -60,6 +60,26 @@ Sub_metering_3: Consumo do submedidor 3 (em watt-hora).
 18) Aplicação do algoritmo K-Means para segmentar dias em 3 grupos distintos de consumo.
 19) Decomposição de série temporal de Global_active_power (tendência, sazonalidade e resíduo).
 20) Treinamento de um modelo de Regressão Linear Simples para prever Global_active_power a partir de Global_intensity.
+21) Criação de séries temporais por hora, identificando horários de maior consumo médio.  
+22) Cálculo da autocorrelação do consumo em lags de 1h, 24h e 48h, avaliando padrões diários.  
+23) Aplicação de PCA para reduzir dimensões das variáveis elétricas e análise da variância explicada.  
+24) Combinação de PCA com K-Means (3 clusters) e visualização da separação dos grupos.  
+25) Comparação entre regressão linear simples e polinomial (grau 2) para modelar consumo em função da tensão.  
+26) Carregamento e inspeção inicial do dataset Appliances Energy Prediction, com análise de tipos de dados e estatísticas descritivas.  
+27) Análise da distribuição do consumo de Appliances por histogramas e séries temporais.  
+28) Cálculo das correlações entre Appliances e variáveis ambientais (temperatura, umidade, etc.).  
+29) Normalização das variáveis numéricas com Min-Max Scaling para uso em modelos preditivos.  
+30) Aplicação de PCA no dataset Appliances Energy Prediction, reduzindo para 2 componentes principais e análise visual.  
+31) Treinamento de Regressão Linear Múltipla para prever Appliances a partir das variáveis ambientais.  
+32) Treinamento de Random Forest Regressor e comparação de desempenho com a regressão linear.  
+33) Aplicação de K-Means clustering (3 a 5 clusters) para identificar perfis distintos de consumo.  
+34) Criação de classificação binária (alto vs baixo consumo) a partir da mediana de Appliances.  
+35) Avaliação dos modelos de classificação com matriz de confusão e métricas (accuracy, precision, recall, F1-score).  
+36) Importação do dataset no Orange Data Mining e visualização inicial com Data Table.  
+37) Amostragem de 1% no Orange Data Mining e comparação da distribuição de Global_active_power.  
+38) Análise da distribuição do consumo com o widget Distribution no Orange.  
+39) Relação entre variáveis elétricas com Scatter Plot (Voltage vs Global_intensity).  
+40) Aplicação de clustering com K-Means (3 clusters) no Orange, utilizando submedidores e interpretação dos padrões.  
 
 
 🚀 Tecnologias Utilizadas
